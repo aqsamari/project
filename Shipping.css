@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Lora-Regular';
+    src: url('./fonts/Lora-Regular.ttf');
+} 
+@font-face{
+    font-family: 'Roboto-MediumItalic';
+    src: url(./fonts/Roboto-MediumItalic.ttf);
+}
+
+.container{
+    background-color: rgba(238, 238, 238, 0.856);
+}
+.text-secondary{
+    font-family: 'Lora-Regular';
+    font-size: 4em;
+    text-decoration: underline;
+    font-weight: 500;
+    margin:  20px 12px;
+    padding: 40px 0px 25px 50px;
+}
+.row{
+    box-shadow: gray;
+}
+.shipping{ 
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 170px;
+}
+.story{
+    text-align: justify !important;
+}
+
+

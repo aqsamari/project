@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Lora-Regular';
+    src: url('./fonts/Lora-Regular.ttf');
+} 
+@font-face{
+    font-family: 'MontserratAlternates-Regular';
+    src: url(./fonts/MontserratAlternates-Regular.ttf);
+}
+@font-face{
+    font-family: 'TenaliRamakrishna-Regular';
+    src: url(./fonts/TenaliRamakrishna-Regular.ttf);
+}
+
+.navbar{
+    background-color: black !important; 
+}
+.logo{
+    height: 15%;
+    width: 15%;
+    margin: 2px 2px;
+}
+.nav-button{
+    padding: 8px 16px !important;
+    border-radius: 10px;
+    font-size: 14px !important;
+    font-family: 'Lora-Regular';
+}
+.nav-button:hover{
+    background: linear-gradient(to right, rgb(159, 31, 182),
+         rgb(224, 46, 46) 70%) !important;
+    color:rgb(255, 255, 255) !important;
+}
+.home{
+    padding: 8px 16px !important;
+    color: black !important;
+    background-color: #ffffff;
+    border-radius: 10px !important;
+    font-size: 15px !important;
+    font-family: 'Lora-Regular';
+    font-weight: bold;
+}
+.home:hover{
+    background: linear-gradient(to right, rgb(159, 31, 182),
+         rgb(224, 46, 46) 70%) !important;
+    color: #ffffff !important;
+}
+.fa-sign-in-alt{
+    font-size: 16px;
+}
+.mobile{
+    font-weight: bold !important;
+    font-family: 'Lora-Regular';
+}
+
+.tab{
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 50% !important;
+    width: 60% !important;
+}
+
+.footer1{
+    background-color: black;
+}
+.ft-1{
+    padding: 70px 70px !important;
+}
+.ft-logo{
+    height: 72%;
+    width: 90%;
+    box-shadow: 1px 7px 15px rgb(200, 42, 161);
+}
+.shop{
+    font-size: 25px;
+    font-family: 'TenaliRamakrishna-Regular';
+    color: rgb(255, 255, 255) !important;
+}
+.social-media{
+    font-size: 23px;
+}
+.social-media a:hover{
+    color: #fc5c65;
+}
+.end{
+    background: linear-gradient(to right, rgb(159, 31, 182),
+         rgb(224, 46, 46) 70%) !important;
+}
+.end h4{
+    font-style: italic;
+    font-family: 'TenaliRamakrishna-Regular';
+    text-align: center !important;
+}
+
+
+

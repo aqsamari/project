@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Lora-Regular';
+    src: url('./fonts/Lora-Regular.ttf');
+} 
+@font-face{
+    font-family: 'MontserratAlternates-Regular';
+    src: url(./fonts/MontserratAlternates-Regular.ttf);
+}
+@font-face{
+    font-family: 'TenaliRamakrishna-Regular';
+    src: url(./fonts/TenaliRamakrishna-Regular.ttf);
+}
+@font-face{
+    font-family: 'Roboto-MediumItalic';
+    src: url(./fonts/Roboto-MediumItalic.ttf);
+}
+
+.about{
+    background-color: rgba(238, 238, 238, 0.856);
+    
+}
+.text-secondary{
+    font-family: 'Lora-Regular';
+    font-size: 4em;
+    text-decoration: underline;
+    font-weight: 500;
+    margin:  10px 12px;
+    padding: 40px 0px 25px 50px;
+}
+.story{
+    font-family: 'Roboto-MediumItalic';
+    color: #333333;
+    line-height: 1.5;
+    text-align: justify !important;
+    width: 42%;
+    margin: 2% 28%;
+    margin-bottom: 20%;
+}
+.story::first-letter{
+    font-size: 30px !important;
+}
+
